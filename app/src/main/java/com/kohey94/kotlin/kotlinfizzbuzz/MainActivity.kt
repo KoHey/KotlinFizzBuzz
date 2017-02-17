@@ -1,14 +1,11 @@
 package com.kohey94.kotlin.kotlinfizzbuzz
-
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-
 class MainActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -18,9 +15,9 @@ class MainActivity : AppCompatActivity() {
         createButton.setAllCaps(false)
         createButton.setOnClickListener { v ->
             if(inputNumber.length() != 0){//入力チェック
-                val int = inputNumber.text.toString().toInt()
+                val intInputNum = inputNumber.text.toString().toInt()
                 var str: String = ""
-                for (x in 1..int) {
+                for (x in 1..intInputNum) {
                     str += when {
                         x % 3 == 0 && x % 5 == 0 -> "FizzBuzz\n"
                         x % 3 == 0 -> "Fizz\n"

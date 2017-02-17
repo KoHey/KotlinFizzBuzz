@@ -3,4 +3,6 @@
     <string name="hint_input_text">数字を入力</string>
     <string name="create_button_name">FizzBuzz</string>
     <string name="output_text"> </string>
+    <string name="title_text">KotlinでFizzBuzz</string>
+    <string name="kotlin_button_name">Go</string>
 </resources>
