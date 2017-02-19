@@ -25,8 +25,17 @@
         android:text="@string/kotlin_button_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/kotlinButton"
         android:layout_below="@+id/textTitle"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:text="@string/Java_button_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kotlinButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="11dp"
-        android:id="@+id/kotlinButton"/>
+        android:layout_marginTop="30dp"
+        android:id="@+id/javaButton"/>
 </RelativeLayout>
