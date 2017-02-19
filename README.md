@@ -1,3 +1,4 @@
 # KotlinFizzBuzz
 KotlinTest
 KotlinでAndroidアプリを作るテスト
+比較用に同じものをJavaとKotlinで書いています
